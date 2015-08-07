@@ -4,8 +4,8 @@ development:
   database: eSikke
   pool: 5
   username: eSikke
-  password: doitnow1
-  host: esikke.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
+  password: juiceIt1
+  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com:3306
   port: 3306
 
 test:
@@ -14,8 +14,8 @@ test:
   database: eSikke
   pool: 5
   username: eSikke
-  password: doitnow1
-  host: esikke.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
+  password: juiceIt1
+  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com:3306
   port: 3306
 
 production:
@@ -24,6 +24,6 @@ production:
   database: eSikke
   pool: 5
   username: eSikke
-  password: doitnow1
-  host: esikke.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
+  password: juiceIt1
+  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com:3306
   port: 3306
