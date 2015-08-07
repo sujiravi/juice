@@ -1,29 +1,29 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: eSikke
+  database: juice
   pool: 5
-  username: eSikke
+  username: sujiravi
   password: juiceIt1
-  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com:3306
+  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
   port: 3306
 
 test:
   adapter: mysql2
   encoding: utf8
-  database: eSikke
+  database: juice
   pool: 5
-  username: eSikke
+  username: sujiravi
   password: juiceIt1
-  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com:3306
+  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
   port: 3306
 
 production:
   adapter: mysql2
   encoding: utf8
-  database: eSikke
+  database: juice
   pool: 5
-  username: eSikke
+  username: sujiravi
   password: juiceIt1
-  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com:3306
+  host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
   port: 3306
