@@ -7,7 +7,7 @@ development:
   password: juiceIt1
   host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
   port: 3306
-#  sslca: /config/mysql-ssl-ca-cert.pem
+  sslca: config/rds-combined-ca-bundle.pem
 
 
 test:
@@ -19,7 +19,7 @@ test:
   password: juiceIt1
   host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
   port: 3306
-#  sslca: /config/mysql-ssl-ca-cert.pem
+  sslca: config/rds-combined-ca-bundle.pem
 
 production:
   adapter: mysql2
@@ -30,4 +30,4 @@ production:
   password: juiceIt1
   host: testdb.cnrhcqurfjvj.us-east-1.rds.amazonaws.com
   port: 3306
-#  sslca: /config/mysql-ssl-ca-cert.pem
+  sslca: config/rds-combined-ca-bundle.pem
